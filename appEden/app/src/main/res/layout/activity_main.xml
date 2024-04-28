@@ -13,7 +13,6 @@
         android:layout_marginEnd="24dp"
         android:onClick="irCarrinho"
         android:scaleType="fitCenter"
-        android:src="@tools:sample/avatars"
         app:layout_constraintBottom_toBottomOf="@+id/searchBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.952"
