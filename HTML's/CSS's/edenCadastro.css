@@ -1,0 +1,103 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS NAV-BAR */
+#item:hover {
+    transition: 500ms;
+    border-radius: 15px;
+    background-color: white;
+    color: blue;
+    padding: 10px;
+}
+
+#item{
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(227, 229, 255);
+    color: black;
+    padding: 1px;
+    z-index: 1;
+    text-shadow: rgb(173, 173, 173) 3px 3px 3px;
+
+}
+
+a {
+    color: black;
+    text-decoration: solid;
+    margin-right: 30px;
+    font-size: medium;
+}
+
+#icone-eden{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+
+/* Imagens */
+.imgMulher {
+    width: 50%;
+    height: 865px;
+    float: left;
+}
+
+.imgEden {
+    float: right;
+    width: 300px;
+    margin-top: 80px;
+    margin-right: 350px;
+    margin-bottom: 20px;
+}
+
+
+/* Box formulários */
+.box {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    padding-right: 500px;
+    border-radius: 10px;
+    color: grey;
+    border-radius: 0px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: rgb(200, 199, 199) 3px 3px 10px 2px;
+}
+
+
+/* Campos para cadastro */
+input {
+    margin-top: 20px;
+    width: 260px;
+    padding: 20px;
+    border: 0px;
+    background-color: rgb(208, 208, 208);
+}
+
+
+/* Botão */
+.entrar {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 500px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: rgb(200, 199, 199) 3px 3px 10px 2px;
+    background-color: rgb(24, 24, 214);
+    padding: 10px;
+    color: white;
+}
+

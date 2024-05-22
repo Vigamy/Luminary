@@ -1,0 +1,254 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding: 20px;
+    color: rgba(112, 112, 112, 1);
+    font-size: 25px;
+}
+
+
+/* CSS NAV-BAR */
+#item:hover {
+    transition: 500ms;
+    border-radius: 15px;
+    background-color: white;
+    color: blue;
+    padding: 10px;
+}
+
+#item{
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(227, 229, 255);
+    color: black;
+    padding: 1px;
+    z-index: 1;
+    text-shadow: rgb(173, 173, 173) 3px 3px 3px;
+}
+
+a {
+    color: black;
+    text-decoration: solid;
+    margin-right: 30px;
+    font-size: medium;
+}
+
+#icone-eden{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+
+/* CSS PARTE 1 TELA INICIAL */
+.textoHomem {
+    width: 600px;
+    font-size: 22px;
+    float: left;
+    clear: both;
+    margin-top: 200px;
+    margin-left: 300px;
+    z-index: 3;
+}
+
+.botao {
+    background-color: rgb(227, 229, 255);
+    border-radius: 15px;
+    padding: 10px;
+    width: fit-content;
+    margin-right: 60px;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.appleStoreLogo {
+    width: 125px;
+}
+
+.googlePlayLogo {
+    width: 130px;
+}
+
+#homemInicio {
+    float: right;
+    margin-top: 40px;
+    margin-right: 150px;
+    width: 950px;
+    z-index: 2;
+}
+
+
+/* CSS PARTE 2 TELA INICIAL */
+.parte2 {
+    margin-top: 1000px;
+}
+
+#celularInicio {
+    float: left;
+    margin-left: 200px;
+    width: 600px;
+}
+
+.textoCelular {
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 900px;
+}
+
+
+/* CSS PARTE 3 TELA INICIAL */
+.parte3 {
+    margin-top: 300px;
+    height: 1300px;
+    background-color: rgb(250, 249, 249);
+}
+
+.textoAnuncio {
+    padding-top: 150px;
+    width: 800px;
+    text-align: center;
+    font-size: 150px;
+    margin-left: 300px;
+    display: inline-block;
+}
+
+.homemApontandoParaCima {
+    float: left;
+    margin-left: 350px;
+    margin-top: 60px;
+    width: 700px;
+}
+
+.exemploAnuncios {
+    margin-top: 20px;
+    margin-left: 350px;
+    width: 700px;
+}
+
+.celularParte3 {
+    width: 500px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 200px;
+}
+
+
+/* CSS PARTE 4 TELA INICIAL */
+.parte4 {
+    line-height: 5px;
+    margin-top: 0px;
+    background-color: rgba(240, 243, 254, 1);
+}
+
+#logoEden {
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 800px;
+    border-radius: 80px;
+    clear: both;
+}
+
+#mulherSorridente {
+    display: inline-block;
+    margin-top: -600px;
+    width: 1300px;
+    margin-left: 600px;
+    clear: both;
+}
+
+.textoParte4 {
+    margin-top: 100px;
+    margin-left: 250px;
+    display: inline-block;
+}
+
+
+/* CSS PARTE FINAL TELA INICIAL */
+.parte5 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.edenSince {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#gmailEden {
+    font-size: 20px;
+    margin-left: 20px;
+    color: rgba(112, 112, 112, 1);
+
+}
+
+#telefoneContato {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.bloco1 {
+    display: block;
+    margin-top: -100px;
+    margin-left: 800px;
+    width: fit-content;
+}
+
+.bloco2 {
+    display: block;
+    margin-top: -200px;
+    margin-left: 1400px;
+}
+
+.termoDeUsoBotao {
+    transition: none;
+    display: block;
+    width: fit-content;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    background-color: rgb(237, 237, 237);
+    color: gray;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.politicaDePrivacidadeBotao {
+    transition: none;
+    margin-top: 80px;
+    margin-left: 20px;
+    background-color: rgb(237, 237, 237);
+    color: gray;
+    padding: 15px;
+    border-radius: 20px;
+}
+#gmailEden:hover{
+    transition: 500ms;
+    border-radius: 15px;
+    background-color: white;
+    color: blue;
+    padding: 10px;
+} 
+#telefoneContato:hover{
+    transition: 500ms;
+    border-radius: 15px;
+    background-color: white;
+    color: blue;
+    padding: 10px;
+}
