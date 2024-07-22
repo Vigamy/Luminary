@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FEFEFE"
     tools:context=".SplashScreen">
 
     <ImageView
@@ -15,5 +16,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/eden_image" />
+        app:srcCompat="@drawable/eden_logotipo_1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
