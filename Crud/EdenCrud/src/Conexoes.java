@@ -33,12 +33,12 @@ public class Conexoes{
         }
     }
 
-    public boolean inserir(String foto, String nome_perfil, String avaliacao, String senha, String telefone, String email, String nome_completo){
+    public boolean inserir(int cod, String foto, String nome_perfil, String avaliacao, String senha, String telefone, String email, String nome_completo){
 
         try {
 
             pstmt = conexao.prepareStatement("INSERT INTO USUARIO VALUES ( ?, ?, ? , ?, ?, ?, ?, ?)");
-            pstmt.setInt(1, 2);
+            pstmt.setInt(1, cod);
             pstmt.setString(2, foto);
             pstmt.setString(3, nome_perfil);
             pstmt.setString(4, avaliacao);
@@ -53,6 +53,19 @@ public class Conexoes{
             return false;
         }
         finally {
+            desconectar();
+        }
+    }
+
+    public boolean remover(int codigo){
+        try {
+            pstmt = conexao.prepareStatement("DELETE FROM USUARIO WHERE id_usuario = ?");
+            pstmt.setInt(1, codigo);
+            return pstmt.executeUpdate() > 0;
+        }catch (SQLException sqe){
+            sqe.printStackTrace();
+            return false;
+        }finally {
             desconectar();
         }
     }

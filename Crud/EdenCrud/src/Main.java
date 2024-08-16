@@ -12,10 +12,17 @@ public class Main {
         }
 
 //        Inserindo dados no banco
-        if (conec.inserir("URL.ijidjinejnja", "leoLins", "Gosto muito de vender", "123456", "11986148320", "lins.leonardo@leo.com", "Leonardo Lins Furlanis")){
-            System.out.println("Dados inseridos no banco com sucesso");
-        }else {
-            System.out.println("Não foi possivel inserir nada ao banco de dados");
-        }
+//        if (conec.inserir(1,"fotocopia", "leoLins", "Gosto muito de vender", "123456", "11986148320", "lins.leonardo@leo.com", "Leonardo Lins Furlanis")){
+//            System.out.println("Dados inseridos no banco com sucesso");
+//        }else {
+//            System.out.println("Não foi possivel inserir nada ao banco de dados");
+//        }
+
+//        REMOVENDO DADOS NO BANCO
+//        if (conec.remover(2)){
+//            System.out.println("Removido com sucesso");
+//        }else {
+//            System.out.println("Não foi possivel remover");
+//        }
     }
 }
